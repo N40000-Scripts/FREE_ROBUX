@@ -1,0 +1,39 @@
+body {
+  font-family: monospace;
+  background: black;
+  color: #0f0;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#robux-btn {
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.hidden {
+  display: none;
+}
+
+#virus-text {
+  text-align: left;
+  margin: 20px auto;
+  white-space: pre-wrap;
+  max-width: 600px;
+}
